@@ -1,0 +1,19 @@
+{
+    "name": "axe-testcafe-demo",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "testcafe chrome:headless test.js jest && open ./artifacts/accessibilityReport.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@testcafe-community/axe": "^3.3.0",
+        "axe-core": "^3.5.5",
+        "axe-html-reporter": "^1.0.0",
+        "prettier": "^2.1.2",
+        "testcafe": "^1.9.4"
+    },
+    "dependencies": {}
+}
