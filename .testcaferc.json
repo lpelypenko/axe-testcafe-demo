@@ -1,5 +1,5 @@
 {
     "browsers": "chrome",
-    "src": "*.js",
+    "src": "testcafe/*.**",
     "clientScripts": [{ "module": "axe-core/axe.min.js" }]
 }

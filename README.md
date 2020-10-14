@@ -14,16 +14,18 @@ Helper to create HTML report from aXe violations, passes, incomplete and incompa
 Install packages and run the tests `npm install && npm test`
 
 ```shell script
-$ npm test
+$ npx testcafe
  Running tests in:
- - Chrome 85.0.4183.121 / Linux
+ - Chrome xxx.xx.xxx / Linix
 
  TestCafe tests with Axe
-HTML report was saved into the following directory /Users/axe-demos/artifacts/accessibilityReport.html
+HTML report was saved into the following directory /gitlab/axe-testcafe-demo/artifacts/accessibilityReport.html
  ✓ Automated accessibility testing
 
+ TestCafe tests with Axe (TypeScript Example)
+HTML report was saved into the following directory /gitlab/axe-testcafe-demo/artifacts/example.html
+ ✓ Automated accessibility testing
 
- 1 passed (1s)
 ```
 
 `npm test` command automatically opens html report file in your browser.

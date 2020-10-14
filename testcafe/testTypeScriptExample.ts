@@ -1,8 +1,10 @@
+// @ts-ignore Type notice will be fixed in https://github.com/testcafe-community/axe/pull/4
 import { runAxe } from '@testcafe-community/axe';
 import { createHtmlReport } from 'axe-html-reporter';
-const customAxeRulesMap = require("./enableAxeRules.json");
+import { t } from 'testcafe';
+const customAxeRulesMap = require("../enableAxeRules.json");
 
-fixture('TestCafe tests with Axe').page('https://a11ydemo.wordpress.com');
+fixture('TestCafe tests with Axe (TypeScript Example)').page('http://example.com');
 
 test('Automated accessibility testing', async (t) => {
     const axeContext = { exclude: [['select']] };
@@ -16,5 +18,6 @@ test('Automated accessibility testing', async (t) => {
         incomplete: results.incomplete,
         url: results.url,
         projectKey: 'EXAMPLE',
+        reportFileName: 'example.html'
     });
 });
