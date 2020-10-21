@@ -9,7 +9,7 @@ TestCafe framework specific wrapper:
 Helper to create HTML report from aXe violations, passes, incomplete and incompatible results: 
 [axe-html-reporter](https://www.npmjs.com/package/axe-html-reporter)
 
-Helper to provide prity console output for the axe results: 
+Helper to provide pretty console output for the axe results: 
 [axe-result-pretty-print](https://www.npmjs.com/package/axe-result-pretty-print)
 
 # How to use

@@ -1,4 +1,3 @@
-// @ts-ignore Type notice will be fixed in https://github.com/testcafe-community/axe/pull/4
 import { runAxe } from '@testcafe-community/axe';
 import { createHtmlReport } from 'axe-html-reporter';
 import { prettyPrintAxeReport } from 'axe-result-pretty-print';

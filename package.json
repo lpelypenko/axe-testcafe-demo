@@ -9,7 +9,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@testcafe-community/axe": "^3.3.0",
+        "@testcafe-community/axe": "^3.4.0",
         "axe-core": "^3.5.5",
         "axe-html-reporter": "^1.0.0",
         "axe-result-pretty-print": "^1.0.0",
