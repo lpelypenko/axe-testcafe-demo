@@ -122,4 +122,4 @@ HTML report was saved into the following directory /gitlab/axe-testcafe-demo/art
 
 # Sample output
 
-See [sample html report output](https://lpelypenko.github.io/axe-testcafe-demo/)
+See [sample html report output](https://lpelypenko.github.io/axe-html-reporter/)
